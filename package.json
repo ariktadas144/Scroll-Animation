@@ -2,11 +2,9 @@
   "name": "scroll",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ariktadas144.github.io/Scroll-Animation",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "eslint"
   },
