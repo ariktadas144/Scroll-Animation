@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
+import type { NextConfig } from "next";
 
-  basePath: "/Scroll-Animation",
-  assetPrefix: "/Scroll-Animation/",
-
-  images: {
-    unoptimized: true,
-  },
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
-module.exports = nextConfig;
+export default nextConfig;
